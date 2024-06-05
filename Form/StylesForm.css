@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Tailwind';
+    src: url('../Font/tailwind-black/TailwindBlack/Tailwind\ Black.ttf') format('truetype'); /* Ruta de la fuente */
+    /* Añade otras variantes de la fuente si las tienes, como bold, italic, etc. */
+}
+
+@font-face {
+    font-family: 'libel_suit';
+    src: url('../Font/libel_suit/libel-suit-rg.otf') format('truetype'); /* Ruta de la fuente */
+    /* Añade otras variantes de la fuente si las tienes, como bold, italic, etc. */
+}
+
+@font-face {
+    font-family: 'Angels';
+    src: url('../Font/matteny_angels/Matteny\ Angels.otf') format('truetype'); /* Ruta de la fuente */
+    /* Añade otras variantes de la fuente si las tienes, como bold, italic, etc. */
+}
+
+.custom-header {
+    background-color: #fff3f5; /* Color de fondo del encabezado */
+    height: 75px; /* Altura del encabezado */
+}
+
+.logo img {
+    position: absolute;
+    height: 60px; /* Ajusta el tamaño de tu logo */
+    right: 70px;
+}
+
+.udec img{
+    position: absolute;
+    top: 5px;
+    height: 45px; /* Ajusta el tamaño de tu logo */
+    left: 10px;  
+}
+
+.image-button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 100px; /* Ancho del botón */
+    height: 80px; /* Alto del botón */
+    margin: 0 10px; /* Añade un margen entre los botones */
+    background-size: contain; /* Ajusta el tamaño de la imagen de fondo para que quepa dentro del botón */
+    background-position: center center; /* Alinea la imagen de fondo en el centro del botón */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+}
+
+.image-button a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-indent: -9999px; /* Mueve el texto fuera del área visible */
+    overflow: hidden; /* Oculta cualquier desbordamiento de texto */
+}
+
+.button-container {
+    display: flex; /* Utiliza flexbox para los botones */
+}
+
+#button1 {
+    background-image: url('../imagen/btnHomeD.png');
+    height: 70px;
+    position: absolute;
+    right: 450px;
+}
+
+
+#button1:active {
+    background-image: url('../imagen/btnHomeA.png'); /* Imagen de fondo para el botón 1 activo */
+}
+
+#button2 {
+    background-image: url('../imagen/btnaartiD.png');
+    height: 75px;
+    position: absolute;
+    right: 350px;
+}
+
+#button2:active {
+    background-image: url('../imagen/btnaartiA.png'); /* Imagen de fondo para el botón 1 activo */
+}
+
+#button3 {
+    background-image: url('../imagen/btnConoceD.png');
+    height: 75px;
+    position: absolute;
+    right: 250px
+}
+
+#button3:active {
+    background-image: url('../imagen/btnConoceA.png'); /* Imagen de fondo para el botón 1 activo */
+}
+
+#button4 {
+    background-image: url('../imagen/btnFormD.png');
+    height: 75px;
+    position: absolute;
+    right: 150px
+}
+
+#button4:active {
+    background-image: url('../imagen/btnFormA.png'); /* Imagen de fondo para el botón 1 activo */
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    overflow-x: hidden; /* Evita la barra de desplazamiento vertical */
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    font-family: Arial, sans-serif;
+    height: 100%; /* Las secciones ocuparán toda la altura del contenedor */
+    margin: 0 -1px; /* Aplicamos un margen negativo para eliminar cualquier espacio entre las secciones */
+}
+
+/* estilos de secciones */
+#section1 {
+    background-color: #fff3f5; 
+    flex-basis: 60%; /* Tamaño inicial de la sección 1 */
+    flex-grow: 1;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Establece la altura al 100% del viewport */
+    background-image: url('../imagen/fondo.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+}
+
+.form-container {
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    /* transform: translate(-50%, -50%); */
+    background-color: #fff3f5; /* Color del rectángulo con transparencia */
+    padding: 20px;
+    border-radius: 10px;
+    width: 600px; /* Ancho deseado del rectángulo */
+    height: auto; /* Alto deseado del rectángulo */
+    /* Añade más estilos según sea necesario para tu formulario */
+}
+
+/* Estilos de formulario de contacto */
+.contact-form {
+    background-color: white;
+    border: 1px solid #333;
+    padding: 10px 50px; /* Margen dedntro */
+    margin: 30px 30px; /* Distancia entre el contenido de otro contenido */
+    max-width: 1500px; /* Ancho */
+
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    font-family: 'libel_suit', sans-serif;
+    text-align: center;
+}
+
+.contact-form h3 {
+    font-size: 20px;
+    font-family: 'libel_suit', sans-serif;
+}
+
+/* Evita que puedan modificar el tamano del textarea*/
+.contact-form textarea {
+    resize: none;
+}
+
+#section3 {
+    background-color: #395068; 
+    flex-basis: 5%; 
+    flex-grow: 1;
+}
+
+.by {
+    text-align: center;
+    font-family: 'libel_suit', sans-serif;
+}
+
+/* <!-- Created by: Viviana Prasca Méndez --> */

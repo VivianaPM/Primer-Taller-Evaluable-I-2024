@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulces Caprichos: Formulario</title>
+    <link rel="icon" type="image/x-icon" href="../imagen/logos/favicon.png">
+    <link rel="stylesheet" href="StylesForm.css">
+</head>
+<body>
+    <header class="custom-header">
+        <!-- Contenido del encabezado -->
+        <div class="logo">
+            <img src="../imagen/logos/logo.png" alt="Logo">
+        </div>
+
+        <div class="udec">
+            <a href="https://www.unicartagena.edu.co/">
+                <img src="../imagen/logos/UdeC.png" alt="LogoUdeC">
+            </a>
+        </div>
+
+        <div class="button-container">
+            <button id="button1" class="image-button"><a href="../Main/main.html"></a></button>
+            <button id="button2" class="image-button"><a href="../Products/Products.html"></a></button>
+            <button id="button3" class="image-button"><a href="../AboutUs/AboutUs.html"></a></button>
+            <button id="button4" class="image-button"><a href="Form.html"></a></button>                  
+        </div>
+
+        <script src="scripts.js"></script>
+    </header>
+
+    
+    <div class="container">
+        <div class="container">
+            <form class="form-container">
+                <div class="contact-form">
+                    <h2>Formulario de contacto</h2>
+                    <!-- contenido del formulario -->
+                <div>
+                    <h3>Solicitud</h3>
+                    <input type="radio" id="mercancia" name="tipo-pedido" value="mercancia">
+                    <label for="mercancia">Mercacia (Detal ó mayor)</label>
+                
+                    <input type="radio" id="atencion-cliente" name="tipo-pedido" value="atencion-cliente">
+                    <label for="atencion-cliente">Atención al cliente</label>
+                
+                    <input type="radio" id="proveedores" name="tipo-pedido" value="proveedores">
+                    <label for="mayor">Proveedor</label>
+                </div>
+
+                <div>
+                    <Label for="nombre"><h3>Nombre:</h3></label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+                    <input type="text" id="nombre" name="nombre" placeholder="Apellido">
+                </div>
+
+                <div>
+                    <label for="email"><h3>Email:</h3></label>
+                    <input type="email" id="email" name="email" placeholder="@example.es">
+                </div>
+
+                <div>
+                    <label for="telefono"><h3>Teléfono:</h3></label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="Numero de telefono/celular">
+                </div>
+                
+                <div>
+                    <label for="mensaje"><h3>Mensaje:</h3></label>
+                    <textarea id="mensaje" name="mensaje" cols="55" rows="10"></textarea>
+                </div>
+
+                <!-- Boton de guardar -->
+                <div>
+                    <button type="submit">Guardar</button>
+                </div>
+
+            </div>
+            </form>
+        </div>
+        <div class="section" id="section3">
+            <label class="by">Created by: Viviana Prasca Méndez<br>Este Portal es realizado con fines académicos</label>
+        </div>
+    </div>
+
+</body>
+</html>
+<!-- Created by: Viviana Prasca Méndez -->

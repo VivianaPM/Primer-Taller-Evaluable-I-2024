@@ -1,0 +1,261 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Votones del encabezado */
+.custom-header {
+    background-color: #fff3f5; /* Color de fondo del encabezado */
+    height: 75px; /* Altura del encabezado */
+}
+
+.logo img {
+    position: absolute;
+    height: 60px; /* Ajusta el tamaño de tu logo */
+    right: 70px;
+}
+
+.udec img{
+    position: absolute;
+    top: 5px;
+    height: 45px; /* Ajusta el tamaño de tu logo */
+    left: 10px;  
+}
+
+.image-button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 100px; /* Ancho del botón */
+    height: 80px; /* Alto del botón */
+    margin: 0 10px; /* Añade un margen entre los botones */
+    background-size: contain; /* Ajusta el tamaño de la imagen de fondo para que quepa dentro del botón */
+    background-position: center center; /* Alinea la imagen de fondo en el centro del botón */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+}
+
+.image-button a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-indent: -9999px; /* Mueve el texto fuera del área visible */
+    overflow: hidden; /* Oculta cualquier desbordamiento de texto */
+}
+
+.button-container {
+    display: flex; /* Utiliza flexbox para los botones */
+}
+
+#button1 {
+    background-image: url('../imagen/btnHomeD.png');
+    height: 70px;
+    position: absolute;
+    right: 450px;
+}
+
+#button1:active {
+    background-image: url('../imagen/btnHomeA.png'); /* Imagen de fondo para el botón 1 activo */
+}
+
+#button2 {
+    background-image: url('../imagen/btnaartiD.png');
+    height: 75px;
+    position: absolute;
+    right: 350px;
+}
+
+#button2:active {
+    background-image: url('../imagen/btnaartiA.png'); /* Imagen de fondo para el botón 1 activo */
+}
+
+#button3 {
+    background-image: url('../imagen/btnConoceD.png');
+    height: 75px;
+    position: absolute;
+    right: 250px
+}
+
+#button3:active {
+    background-image: url('../imagen/btnConoceA.png'); /* Imagen de fondo para el botón 1 activo */
+}
+
+#button4 {
+    background-image: url('../imagen/btnFormD.png');
+    height: 75px;
+    position: absolute;
+    right: 150px
+}
+
+#button4:active {
+    background-image: url('../imagen/btnFormA.png'); /* Imagen de fondo para el botón 1 activo */
+}
+
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 900px;
+    flex-direction: column;
+    overflow-x: hidden; /* Evita la barra de desplazamiento vertical */
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    height: 100%; /* Las secciones ocuparán toda la altura del contenedor */
+    margin: 0 -1px; /* Aplicamos un margen negativo para eliminar cualquier espacio entre las secciones */
+}
+
+/* DEfinicion de propiedades de las secciones */
+#section1 {
+    background-color: #fff3f5; 
+    flex-basis: 60%; /* Tamaño inicial de la sección 1 */
+    flex-grow: 1;
+}
+
+#section2 {
+    background-color: #fc6c83; 
+    flex-basis: 25%; 
+    flex-grow: 1;
+}
+
+#section3 {
+    background-color: #395068; 
+    flex-basis: 8%; 
+    flex-grow: 1;
+}
+
+/* Definicion de fuentes */
+
+@font-face {
+    font-family: 'Tailwind';
+    src: url('../Font/tailwind-black/TailwindBlack/Tailwind\ Black.ttf') format('truetype'); /* Ruta de la fuente */
+    /* Añade otras variantes de la fuente si las tienes, como bold, italic, etc. */
+}
+
+@font-face {
+    font-family: 'libel_suit';
+    src: url('../Font/libel_suit/libel-suit-rg.otf') format('truetype'); /* Ruta de la fuente */
+    /* Añade otras variantes de la fuente si las tienes, como bold, italic, etc. */
+}
+
+@font-face {
+    font-family: 'Angels';
+    src: url('../Font/matteny_angels/Matteny\ Angels.otf') format('truetype'); /* Ruta de la fuente */
+    /* Añade otras variantes de la fuente si las tienes, como bold, italic, etc. */
+}
+
+@font-face {
+    font-family: 'LittleBook';
+    src: url('../Font/Little\ Book.otf') format('truetype'); /* Ruta de la fuente */
+    /* Añade otras variantes de la fuente si las tienes, como bold, italic, etc. */
+}
+/* Sección 1: Informacion de bienvenidad */
+/* imagen de la publicidad en la seccion 1 */
+.publicidadimg {
+    position: absolute; /* Posición absoluta */
+    top: 50px; /* Posición desde la parte superior */
+    left: 150px; /* Posición desde la izquierda */
+    width: 400px; /* Ancho deseado */
+    height: auto; /* Alto ajustado automáticamente */
+}
+
+.welcome {
+    font-family: 'Angels', sans-serif; /* Cambia "Arial" por la fuente que desees utilizar */
+    /* También puedes agregar otras propiedades de estilo, como tamaño de fuente, color, etc. */
+    font-size: 100px;
+    position: absolute;
+    top: 50px;
+    right: 250px;
+    color: #333;
+}
+
+.textwelcome{
+    font-family: 'libel_suit', sans-serif;
+    position: relative;
+    top: 15%;
+    right: -17%;
+    /*transform: translate(-50%, -50%);*/
+    text-align: center; /* Centra horizontalmente el texto */
+}
+
+p {
+    color: #000;
+    line-height: 1.5; /* Ajusta el espacio vertical entre líneas */
+}
+
+/* Seccion 2 : cuadros de imagen de secciones*/
+
+h1 {
+    font-family: "Tailwind", sans-serif; /* Cambia "Arial" por la fuente que desees utilizar */
+    /* También puedes agregar otras propiedades de estilo, como tamaño de fuente, color, etc. */
+    font-size: 30px;
+    color: #fff;
+}
+
+.inferior.cuadros img {
+    border-radius: 3px;
+    color: #000;
+    background-color: #FFFF;
+    height: 300px;
+    width: 300px;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.inferior.cuadros .imagen p {
+    font-size: 30px; /* Tamaño de fuente */
+    color: #333; /* Color de texto */
+    text-align: center; /* Centrar el texto */
+    margin-top: 5px; /* Espacio entre la imagen y el texto */
+    text-align: center;
+    flex: 1;
+    padding: 0 10px;
+}
+
+.inferior.cuadros .imagen-container1 {
+    display: inline-block; /* Muestra los elementos en la misma línea */
+    text-align: center; /* Centra el contenido horizontalmente */
+    vertical-align: top; /* Alinea la parte superior de los elementos */
+    width: 350px; /* Ajusta el ancho para que haya 3 elementos en una fila */
+    padding: 20px 10px; /* Añade espaciado horizontal entre elementos */
+}
+
+.imagen-container1:hover {
+    transform: scale(1.1);
+}
+
+.inferior.cuadros .imagen-container2 {
+    display: inline-block; /* Muestra los elementos en la misma línea */
+    text-align: center; /* Centra el contenido horizontalmente */
+    vertical-align: top; /* Alinea la parte superior de los elementos */
+    width: 350px; /* Ajusta el ancho para que haya 3 elementos en una fila */
+    padding: 20px 10px; /* Añade espaciado horizontal entre elementos */
+}
+
+.imagen-container2:hover {
+    transform: scale(1.1);
+}
+
+.inferior.cuadros .imagen-container3 {
+    display: inline-block; /* Muestra los elementos en la misma línea */
+    text-align: center; /* Centra el contenido horizontalmente */
+    vertical-align: top; /* Alinea la parte superior de los elementos */
+    width: 350px; /* Ajusta el ancho para que haya 3 elementos en una fila */
+    padding: 20px 10px; /* Añade espaciado horizontal entre elementos */
+}
+
+.imagen-container3:hover {
+    transform: scale(1.1);
+}
+
+/* creado por  */
+.by {
+    text-align: center;
+    font-family: 'libel_suit', sans-serif;
+}
+/* <!-- Created by: Viviana Prasca Méndez --> */
