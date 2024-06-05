@@ -48,47 +48,47 @@ body {
 }
 
 #button1 {
-    background-image: url('../imagen/btnHomeD.png');
+    background-image: url('imagen/btnHomeD.png');
     height: 70px;
     position: absolute;
     right: 450px;
 }
 
 #button1:active {
-    background-image: url('../imagen/btnHomeA.png'); /* Imagen de fondo para el botón 1 activo */
+    background-image: url('imagen/btnHomeA.png'); /* Imagen de fondo para el botón 1 activo */
 }
 
 #button2 {
-    background-image: url('../imagen/btnaartiD.png');
+    background-image: url('imagen/btnaartiD.png');
     height: 75px;
     position: absolute;
     right: 350px;
 }
 
 #button2:active {
-    background-image: url('../imagen/btnaartiA.png'); /* Imagen de fondo para el botón 1 activo */
+    background-image: url('imagen/btnaartiA.png'); /* Imagen de fondo para el botón 1 activo */
 }
 
 #button3 {
-    background-image: url('../imagen/btnConoceD.png');
+    background-image: url('imagen/btnConoceD.png');
     height: 75px;
     position: absolute;
     right: 250px
 }
 
 #button3:active {
-    background-image: url('../imagen/btnConoceA.png'); /* Imagen de fondo para el botón 1 activo */
+    background-image: url('imagen/btnConoceA.png'); /* Imagen de fondo para el botón 1 activo */
 }
 
 #button4 {
-    background-image: url('../imagen/btnFormD.png');
+    background-image: url('imagen/btnFormD.png');
     height: 75px;
     position: absolute;
     right: 150px
 }
 
 #button4:active {
-    background-image: url('../imagen/btnFormA.png'); /* Imagen de fondo para el botón 1 activo */
+    background-image: url('imagen/btnFormA.png'); /* Imagen de fondo para el botón 1 activo */
 }
 
 
@@ -133,25 +133,25 @@ body {
 
 @font-face {
     font-family: 'Tailwind';
-    src: url('../Font/tailwind-black/TailwindBlack/Tailwind\ Black.ttf') format('truetype'); /* Ruta de la fuente */
+    src: url('Font/tailwind-black/TailwindBlack/Tailwind\ Black.ttf') format('truetype'); /* Ruta de la fuente */
     /* Añade otras variantes de la fuente si las tienes, como bold, italic, etc. */
 }
 
 @font-face {
     font-family: 'libel_suit';
-    src: url('../Font/libel_suit/libel-suit-rg.otf') format('truetype'); /* Ruta de la fuente */
+    src: url('Font/libel_suit/libel-suit-rg.otf') format('truetype'); /* Ruta de la fuente */
     /* Añade otras variantes de la fuente si las tienes, como bold, italic, etc. */
 }
 
 @font-face {
     font-family: 'Angels';
-    src: url('../Font/matteny_angels/Matteny\ Angels.otf') format('truetype'); /* Ruta de la fuente */
+    src: url('Font/matteny_angels/Matteny\ Angels.otf') format('truetype'); /* Ruta de la fuente */
     /* Añade otras variantes de la fuente si las tienes, como bold, italic, etc. */
 }
 
 @font-face {
     font-family: 'LittleBook';
-    src: url('../Font/Little\ Book.otf') format('truetype'); /* Ruta de la fuente */
+    src: url('Font/Little\ Book.otf') format('truetype'); /* Ruta de la fuente */
     /* Añade otras variantes de la fuente si las tienes, como bold, italic, etc. */
 }
 /* Sección 1: Informacion de bienvenidad */
